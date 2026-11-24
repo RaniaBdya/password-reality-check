@@ -16,7 +16,7 @@ Site de sensibilisation à la sécurité des mots de passe.
 Le mot de passe saisi reste dans le navigateur. Pour la vérification des fuites, seuls les 5 premiers caractères de son empreinte SHA-1 sont envoyés à l'API Have I Been Pwned (principe du k-anonymat), ce qui ne permet pas de retrouver le mot de passe. Ce site ne stocke aucune donnée.
 
 ## Limites
-- Outil pédagogique : il ne remplace pas un gestionnaire de mots de passe. Évitez d'y saisir vos mots de passe les plus sensibles.
+- Outil pédagogique : il ne remplace pas un gestionnaire de mots de passe. 
 - L'estimation du temps de cassage ne tient pas compte des attaques par dictionnaire.
 - Le générateur utilise une liste de 200 mots (environ 46 bits de sécurité), ce qui illustre la méthode mais reste insuffisant pour un usage réel. Une version utilisable demanderait une liste de plusieurs milliers de mots.
 
